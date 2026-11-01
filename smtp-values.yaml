@@ -1,0 +1,8 @@
+# Local Mailpit verification using the unmodified Open Source chart.
+extraSecrets:
+  DD_EMAIL_URL: "smtp://mailpit:1025"
+siteUrl: "http://dojo.lab.local:8080"
+trackConfig: enabled
+createSecret: false
+createPostgresqlSecret: false
+createValkeySecret: false

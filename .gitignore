@@ -1,0 +1,11 @@
+# Do not commit local credentials, backups or rendered Secrets.
+.env
+.env.*
+*.tgz
+private*/
+*backup*/
+*secret*.json
+existing-values.yaml
+smtp-provider-values.yaml
+__pycache__/
+*.pyc

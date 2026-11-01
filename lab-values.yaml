@@ -1,0 +1,19 @@
+host: dojo.lab.local
+imagePullPolicy: IfNotPresent
+trackConfig: enabled
+
+django:
+  ingress:
+    enabled: false
+    activateTLS: false
+  uwsgi:
+    appSettings:
+      processes: 1
+      threads: 2
+    resources:
+      requests:
+        cpu: 100m
+        memory: 512Mi
+      limits:
+        cpu: 2000m
+        memory: 1Gi
