@@ -4,6 +4,11 @@ A small local lab for understanding how DefectDojo receives SMTP configuration t
 
 This repository accompanies a beginner-friendly walkthrough. It uses the existing Open Source chart's `extraSecrets.DD_EMAIL_URL` setting; it does not modify DefectDojo or its chart.
 
+
+This lab is for my article in medium that how you can setup smtp server for dd with helm.
+You can read full article in [medium](https://medium.com/@sajjad_rn/getting-email-working-in-defectdojo-with-helm-a-beginner-friendly-local-guide-779df26c2593)
+
+
 ## Tested scope
 
 The email workflow was validated on an existing Minikube installation with Helm chart **1.9.60**, DefectDojo **3.4.202**, and a local Mailpit receiver reporting **v1.32.0**. Fresh-install commands below are preparation instructions, not a claim that the complete workflow was rerun on a clean machine. The version pin is for reproducing this local test, not a production-version recommendation.
