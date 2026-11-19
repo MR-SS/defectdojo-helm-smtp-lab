@@ -1,5 +1,8 @@
 # DefectDojo Helm SMTP lab
 
+> **Security engineering portfolio:** A reproducible local Helm/Minikube integration lab focused on safe SMTP configuration and verification of DefectDojo email flows. The tests below are explicitly bounded to a local environment; they do not constitute validation of production SMTP providers or deployments. [Walkthrough on Medium](https://medium.com/@sajjad_rn/getting-email-working-in-defectdojo-with-helm-a-beginner-friendly-local-guide-779df26c2593).
+
+
 A small local lab for understanding how DefectDojo receives SMTP configuration through Helm and for checking that email actually arrives.
 
 This repository accompanies a beginner-friendly walkthrough. It uses the existing Open Source chart's `extraSecrets.DD_EMAIL_URL` setting; it does not modify DefectDojo or its chart.
